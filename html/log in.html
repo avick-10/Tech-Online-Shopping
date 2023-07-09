@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validated login form</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">Registration</h1>
+        <form class="login_form" action="index.html" method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email or phone</div>
+            <input type="text" name="email">
+            <div id="email_error">Please fillup your email or phone</div>
+            <div class="font">password</div>
+            <input type="password" name="password">
+            <div id="pass_error">Please fillup your password</div>
+            <button type="submit">register</button>    
+            
+        </form>
+    </div>
+    <script src="valid.js"></script>
+
+    
+    
+</body>
+</html>
